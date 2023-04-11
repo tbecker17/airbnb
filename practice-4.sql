@@ -3,7 +3,7 @@
 -- +----------+
 -- | 272      |
 -- +----------+
-SELECT COUNT (id), neighborhood
+SELECT COUNT (id)
 FROM listings 
 WHERE neighborhood = "Lincoln Park"
 ;
